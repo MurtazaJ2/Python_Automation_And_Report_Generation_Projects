@@ -1,0 +1,10 @@
+,Test case Id,Test Description,Step ID,Step input,Expected Output
+0,tc_01,valid username and valid password,S_id_1,"user -Murtaza2022, password -Murtaza23#",Pass
+1,tc_02,invalid username and valid password,s_id_2,"user -murtaza, password -Murtaza23#",Fail
+2,tc_03,invalid email and invalid password,S_id_3,"user -murtaza.gmail.com, password -xyz123",Fail
+3,tc_04,invalid email and valid password,S_id_4,"user -murtaza.gmail.com, password -Murtaza23#",Fail
+4,tc_05,valid username and invalid password,S_id_5,"user -Murtaza20 , password -xyz123",Fail
+5,tc_06,invalid username and invalid password,S_id_6,"user -murtaza, password -xyz123",Fail
+6,tc_07,username is empty and sign-in button is clicked,S_id_7,"user -  , password -Soft123",Fail
+7,tc_08, password block is empty and sign-in button is clicked,S_id_8,"User -Murtaza20, password -  ",Fail
+8,tc_09,both the blocks are empty and sign-in button is clicked,S_id_9,"user - , password -  ",Fail
