@@ -1,0 +1,11 @@
+,Step Id,Sequence,Step Input
+0,1,,Cmd#1|imgID1
+1,2,,Cmd#2|imgID2
+2,3,,Cmd#3|imgID3
+3,4,,Cmd#4|imgID4
+4,5,"5,6,7,8",Cmd#5|imgID#R
+5,6,,Cmd#6|imgID6
+6,7,,Cmd#7|imgID7
+7,8,,Cmd#R|imgID3
+8,9,,Cmd#4|imgID4
+9,10,,Cmd#5|imgID5
