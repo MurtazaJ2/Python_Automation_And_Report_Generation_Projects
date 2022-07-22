@@ -1,0 +1,29 @@
+Filesystem                                         1K-blocks        Used  Available Use% Mounted on
+sjvclapa02-p3-184:/fac/ai_regress2               19327352832 13738559488 5588793344  72% /fac/ai_regress2
+sjcpfb03-c184-01:/ipg_ten_software                8658092032  6894629376 1763462656  80% /fac/proj_software
+sjcpfb03-c184-01:/ipg_ten_vision                  6851395584  4587597824 2263797760  67% /fac/proj_vision
+sjcpfb03-c184-01:/ipg_ten_home_software/estotzer 10200547328  7994038784 2206508544  79% /home/estotzer
+sjcpfb03-c184-01:/ipg_ten_home_vision/brill       5583457792  3426293760 2157164032  62% /home/brill
+sjcpfb03-c184-01:/ipg_ten_fac_ai_data             5242880000  2732976640 2509903360  53% /fac/ai_data
+ 
+*******************************************************************************
+tenivp-ubu01: 
+Filesystem      1K-blocks       Used Available Use% Mounted on
+/dev/sdb1      4650072552 3512278952 903420584  80% /regression1
+ 
+*******************************************************************************
+tenivp-ubu02: 
+Filesystem      1K-blocks       Used Available Use% Mounted on
+/dev/sda7      1781297188 1153706804 537082712  69% /
+ 
+*******************************************************************************
+tenivp-ubu03: 
+Filesystem      1K-blocks       Used Available Use% Mounted on
+/dev/sdb1      3690186640 2909446488 593218824  84% /workspace
+ 
+*******************************************************************************
+tenivp-ubu04: 
+Filesystem      1K-blocks       Used Available Use% Mounted on
+/dev/sdb1      3690186640 2591200912 911464400  74% /workspace
+ 
+*******************************************************************************
