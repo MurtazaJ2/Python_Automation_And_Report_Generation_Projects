@@ -1,0 +1,29 @@
+,Test_case_Id,Test title,Test Description,Step_ID,Step Description,Step_input,Expected_Output
+0,tc_01,cd without any arguments,check cd without any argument,sid_1_1, changes root directory to specified directory,cd /home/softnautics/Desktop,
+1,,,,Sid_1_2,verify the output of step 1,pwd,/home/softnautics/Desktop
+2,tc_02,cd without any arguments,check cd without any argument,Sid_2_1, shows the home directory and its subdirectory,cd /home/softnautics/Desktop/pythonExercise,
+3,,,,Sid_2_2,verify the output of step 1,pwd,/home/softnautics/Desktop/pythonExercise
+4,tc_03,cd with invalid directory,check cd with invalid directory,Sid_3_1,file name given instead of directory,cd /home/softnautics/Desktop/pythonExercise/practice.py,Not a directory
+5,tc_04,cd with invalid directory name,cd with invalid data,Sid_4_1,the directory name is invalid,cd /home/softnautics/desktop,No such file or directory
+6,tc_05,cd with invalid data,cd with invalid data,Sid_5_1,the directory doesn't exists,cd /home/softnautics/Desktop/pythonCourse,No such file or directory
+7,tc_06,cd with ~ argument,check cd with ~ argument,Sid_6_1,it goes back to root directory,cd ~,
+8,,,,Sid_6_2,verify the output of step 1,pwd,/home/softnautics
+9,tc_07,cd with ~/ argument,check cd with ~/ argument,Sid_7_1,it directly goes to specified directory from current directory,cd ~/Downloads,
+10,,,,Sid_7_2,verify the output of step 1,pwd,/home/softnautics/Downloads
+11,tc_08,cd with ~ argument using invalid directory,check cd with ~ argument using invalid directory,Sid_8_1,invalid directory,cd ~/home/softnautics/downloads,No such file or directory
+12,tc_09,cd with ~ argument using valid username,check cd with ~ argument using valid username,Sid_9_1,vaild username ,cd ~softnautics,
+13,,,,Sid_9_2,verify the output of step 1,pwd,/home/softnautics
+14,tc_10,cd with ~ argument using invalid username,check cd with ~ argument using invalid username,Sid_10_1,invalid username,cd ~murtaza,No such file or directory
+15,tc_11,cd with - argument,check  cd with - argument,Sid_11_1,root directory changed to its previous directory,cd -,/home/softnautics/Desktop/Command_automation_framework
+16,tc_12,cd with -/ argument,check cd with - argument using invalid data,Sid_12_1,invalid  use of argumnet,cd -/home/softnautics/Downloads,"bash: cd: -/: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]"
+17,tc_13,cd with - argument using invalid command,check cd with - argument using invalid command,Sid_13_1, check using invalid command ,cd - /home/softnautics/Downloads,bash: cd: too many arguments
+18,tc_14,cd with - argument from root directory,check cd with - argument withon any previous directory,Sid_14_1,without any previous directory,cd -,/home/softnautics
+19,tc_15,cd with .. argument,check cd with .. argument,Sid_15_1,goes back to parent directory from current directory,cd ..,
+20,,,,Sid_15_2,verify the output of step 1,pwd,/home/softnautics/Desktop
+21,tc_16,cd with ../ argument,check cd with ../ argument,Sid_16_1,move from one parent directory to another,cd ../home/softnautics/Downloads,bash: cd: ../home/softnautics/Downloads: No such file or directory
+22,tc_17,cd with ../ argument using invalid directory,check cd with ../ argument using invalid directory,Sid_17_1,invalid  parent directory,cd ../home/softnautics/Downloads,bash: cd: ../Downloads: No such file or directory
+23,tc_18,cd with .. argument using invalid argument,check cd with .. argument using invalid argument,Sid_18_1,invalid argument,cd .. ..,bash: cd: too many arguments
+24,tc_19,cd with / argument,check cd with / argument to navigate through directories,Sid_19_1,navigate through multiple directories,cd /home/softnautics/Downloads/OOPs-Python-Notes,
+25,,,,Sid_19_2,verify the output of step 1,pwd,/home/softnautics/Downloads/OOPs-Python-Notes
+26,tc_20,cd with / argument,check cd with / argument to navigate into files,Sid_20_1,navigate in to files,cd /home/softnautics/Downloads/OOPs-Python-Notes/OOPs-Part-4.pdf,bash: cd: Downloads/OOPs-Python-Notes/OOPs-Part-4.pdf: Not a directory
